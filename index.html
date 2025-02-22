@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicsearch - Quick and easy dictionary search tool. Find definitions, synonyms, and word meanings instantly.">
+    <title>DicSearch - Online Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h6 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-book"></i> DicSearch</h1>
+            <p>Your friendly online dictionary</p>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Type any word...">
+                <button id="searchBtn">
+                   
+                    <i class="fas fa-search"></i>
+              <h3> SEARCH</button>
+            </div>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <h6>© 2025 DicSearch - Expand your vocabulary</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
